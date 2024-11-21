@@ -11,7 +11,7 @@ class StudentController extends BaseController
     public function index()
 {
     $studentModel = new Student();
-
+    echo "hi";
     // Pagination setup
     $perPage = 10; // Show 10 records per page
 
